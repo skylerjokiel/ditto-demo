@@ -50,7 +50,7 @@ function App({ ditto }) {
 
   const carsElement = [];
   Array.from(cars).forEach(c => {
-    carsElement.push(<div>{`${c.color} ${c.type}`}</div>);
+    carsElement.push(<div>{`${c.value.color} ${c.value.type}`}</div>);
   })
   
   return (
